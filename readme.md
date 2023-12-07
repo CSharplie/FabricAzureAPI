@@ -65,7 +65,7 @@ Host: management.azure.com
     "properties": {
         "administration" : {
             "members" : [
-                <administrators>
+                "<administrators>"
             ]
         }
     },
@@ -86,15 +86,15 @@ Content-Type: application/json
     "state": "Provisioning",
     "administration": 
         {
-            "members": [<administrators>]
+            "members": ["<administrators>"]
         },
     "id": "/subscriptions/<subscription-id>/resourceGroups/<resource-groupe-name>/providers/Microsoft.Fabric/capacities/<capacity-name>",
     "name": "<capacity-name>",
     "type": "Microsoft.Fabric/capacities",
-    "location":"<location>",
+    "location": "<location>",
     "sku": { 
-        "name":"<sku>",
-        "tier":"Fabric"
+        "name": "<sku>",
+        "tier": "Fabric"
     }
 }
 ```
@@ -135,15 +135,15 @@ Content-Type: application/json
     "state": "Active",
     "administration": 
         {
-            "members": [<administrators>]
+            "members": ["<administrators>"]
         },
     "id": "/subscriptions/<subscription-id>/resourceGroups/<resource-groupe-name>/providers/Microsoft.Fabric/capacities/<capacity-name>",
     "name": "<capacity-name>",
     "type": "Microsoft.Fabric/capacities",
-    "location":"<location>",
+    "location": "<location>",
     "sku": { 
-        "name":"<sku>",
-        "tier":"Fabric"
+        "name": "<sku>",
+        "tier": "Fabric"
     }
 }
 ```
@@ -193,7 +193,7 @@ Authorization: Bearer <access-token>
 Content-Type: application/json
 Host: management.azure.com
     "sku": {
-        "name": f"<sku>",
+        "name": "<sku>",
         "tier": "Fabric"
     }
 ```
@@ -207,15 +207,15 @@ Content-Type: application/json
     "state": "Active",
     "administration": 
         {
-            "members": [<administrators>]
+            "members": ["<administrators>"]
         },
     "id": "/subscriptions/<subscription-id>/resourceGroups/<resource-groupe-name>/providers/Microsoft.Fabric/capacities/<capacity-name>",
     "name": "<capacity-name>",
     "type": "Microsoft.Fabric/capacities",
-    "location":"<location>",
+    "location": "<location>",
     "sku": { 
-        "name":"<sku>",
-        "tier":"Fabric"
+        "name": "<sku>",
+        "tier": "Fabric"
     }
 }
 ```
@@ -234,7 +234,7 @@ Host: management.azure.com
     "properties": {
         "administration" : {
             "members" : [
-                <administrators>
+                "<administrators>"
             ]
         }
     }
@@ -249,15 +249,15 @@ Content-Type: application/json
     "state": "Active",
     "administration": 
         {
-            "members": [<administrators>]
+            "members": ["<administrators>"]
         },
     "id": "/subscriptions/<subscription-id>/resourceGroups/<resource-groupe-name>/providers/Microsoft.Fabric/capacities/<capacity-name>",
     "name": "<capacity-name>",
     "type": "Microsoft.Fabric/capacities",
-    "location":"<location>",
+    "location": "<location>",
     "sku": { 
-        "name":"<sku>",
-        "tier":"Fabric"
+        "name": "<sku>",
+        "tier": "Fabric"
     }
 }
 ```
