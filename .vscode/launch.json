@@ -1,0 +1,61 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Create Capacity",
+            "type": "python",
+            "request": "launch",
+            "program": "sample/capacity_create.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Remove Capacity",
+            "type": "python",
+            "request": "launch",
+            "program": "sample/capacity_remove.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Show Capacity",
+            "type": "python",
+            "request": "launch",
+            "program": "sample/capacity_show.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Resume Capacity",
+            "type": "python",
+            "request": "launch",
+            "program": "sample/capacity_resume.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Suspend Capacity",
+            "type": "python",
+            "request": "launch",
+            "program": "sample/capacity_suspend.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Scale Capacity",
+            "type": "python",
+            "request": "launch",
+            "program": "sample/capacity_scale.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Update administrators",
+            "type": "python",
+            "request": "launch",
+            "program": "sample/capacity_admins.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+    ]
+}
